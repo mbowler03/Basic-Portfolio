@@ -1,0 +1,91 @@
+
+/**
+ * CSS FOR BIO HOMEWORK
+ **/
+ body {
+  min-height: 100%;
+  position: relative;
+  margin: 20px;
+   padding: 30;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   background-color: #ffffff;
+   background-image: url(/assets/images/spikes.png);
+   background-repeat: repeat-y;
+   border-color: #dddddd;
+   font-family: Georgia, 'Times New Roman', Times, serif
+ } 
+ 
+ header {  
+  background-color: #ffffff;
+  border-color: #cccccc;
+  padding: 30;
+  font-size: 30;
+}
+.header-left {
+  text-align: center;
+  position: fixed;
+  background: #4aaaa5;
+  padding: 10px 0;
+  color: #eee; 
+}
+
+
+.header-right { 
+  text-align: right;
+  width: 100%;
+  position: fixed;        
+  background: #333;
+  padding: 10px 0;
+  color: #eee;
+}
+.fixed-header {
+  top: 0;
+} 
+.container {
+  width: 80%;
+  margin: 0 auto; 
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+ img {
+    float: left;
+    padding: 20px;
+  }
+
+  #ABOUT {
+    margin-top: 0;
+    width: 33.33%;
+    padding: 20px;
+    color: #30948D;
+    
+}
+  footer {
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    background: #666666;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    bottom: 0;
+  }
+  #wholepage{
+    widows: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .row {
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 25%;
+    height: auto;
+    padding: 30px;
+
+  }
+  
