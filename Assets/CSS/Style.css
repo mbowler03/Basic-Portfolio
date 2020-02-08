@@ -47,7 +47,6 @@ img {
   
 }
 
-
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
@@ -62,8 +61,8 @@ img {
 
 /* having trouble getting active link to change with the page*/
 .header a.active {
-  background-color: #4aaaa5;
-  color: white;
+  background-color: #ffffff;
+  color: black;
 }
 
 .header-right {
