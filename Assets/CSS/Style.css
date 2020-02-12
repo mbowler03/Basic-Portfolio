@@ -11,7 +11,7 @@
    font-family: Arial, Helvetica, sans-serif;
    font-size: 20px;
    background-color: #ffffff;
-   background-image: url("/assets/images/spikes.png");
+   background-image: url("../Basic-Portfolio/Assets/Images/spikes.png");
    background-repeat: repeat-y;
    background-attachment: fixed;
    border-color: #dddddd;
@@ -102,6 +102,7 @@ img {
     padding: 40px;
     color: #30948D;
     font-size: 50;
+  
 }
   footer {
     position: fixed;
