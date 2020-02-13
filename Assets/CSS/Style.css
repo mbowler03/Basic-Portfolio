@@ -22,7 +22,7 @@
    width: 100%;
    max-width: 960px;
    margin: 0 auto;
-   padding: 10px;
+   padding: 0px;
  }
  
  
@@ -104,7 +104,7 @@ img {
   #ABOUT {
     text-decoration: underline;
     margin-top: 0;
-    width: 33.33%;
+    width: 100%;
     padding: 50px;
     color: #30948D;
     font-size: 15;
@@ -113,8 +113,8 @@ img {
     #PORTFOLIO {
       text-decoration: underline;
       margin-top: 0;
-      width: 33.33%;
-      padding: 20px;
+      width: 100%;
+      padding: 50px;
       color: #30948D;
       font-size: 15;
 }
@@ -122,20 +122,21 @@ img {
     #CONTACT {
       text-decoration: underline;
       margin-top: 0;
-    width: 33.33%;
-    padding: 20px;
+    width: 100%;
+    padding: 50px;
     color: #30948D;
     font-size: 15;
   }
 
   .row {
+    float: left;
     display: grid;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    max-width: 25%;
+    max-width: 100%;
     height: auto;
-    padding: 30px;
+    padding: 35px;
 }
  /*This is the Contact Page*/
 input[type=text], select, textarea {
